@@ -1,8 +1,26 @@
  # Símbolos que se utilizan para representar cada operación de un algoritmo con un diagrama de flujo:
 
- 1. Óvalo: Inicio/Fin.
- 2. Rectángulo: Procesos.
- 3. Entrada de datos
- 4. 
+• Óvalo (Inicio/Fin): Se utiliza para indicar el comienzo y el final de un algoritmo. Todo diagrama de flujo debe iniciar y terminar con este símbolo.
+
+• Rectángulo (Proceso): Representa una acción, operación o cálculo que debe realizar el algoritmo, como sumar dos números, asignar un valor o ejecutar una instrucción.
+
+• Paralelogramo (Entrada de datos): Se utiliza para representar la entrada o salida de información. Generalmente indica que el usuario ingresa datos o que el sistema muestra un resultado.
+
+• Rombo (Condición): Representa una decisión o comparación. Dependiendo de si la condición es verdadera o falsa, el algoritmo sigue un camino diferente.
+
+• Círculo (Conector): Sirve para unir diferentes partes del diagrama de flujo sin necesidad de trazar líneas muy largas, facilitando su organización y lectura.
+
+• Símbolo de cinta magnética (Cinta magnética): Representa el almacenamiento de datos en una cinta magnética. Es un símbolo tradicional que hoy en día se utiliza muy poco.
+
+• Cilindro (Disco magnético): Indica que la información se almacena en un disco duro o en una base de datos, es decir, en un medio de almacenamiento permanente.
+
+• Pentágono (Conector de página): Se utiliza cuando el diagrama continúa en otra hoja. Permite indicar dónde debe seguir el flujo del algoritmo.
+
+• Flechas (Líneas de flujo): Muestran la dirección y el orden en que se ejecutan las instrucciones dentro del diagrama de flujo.
+
+• Símbolo de pantalla o display (Mostrar datos): Representa la salida de información en un monitor o pantalla para que el usuario pueda visualizar los resultados.
+
+• Símbolo de documento (Enviar datos a impresora): Indica que la información generada por el algoritmo será enviada a una impresora o se obtendrá un documento impreso como salida.
+
 <img width="852" height="800" alt="5173492_orig" src="https://github.com/user-attachments/assets/d8a41cf5-f06b-476a-9a4f-303670ece7df" />
 
