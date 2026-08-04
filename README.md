@@ -40,3 +40,6 @@
 
 <img width="262" height="1092" alt="Ejercicio2" src="https://github.com/user-attachments/assets/f1cd7453-b3fe-4ea0-b623-e5973fea0f51" />
 
+<img width="712" height="912" alt="Diagrama sin título drawio" src="https://github.com/user-attachments/assets/97d6a1f8-4501-41c6-9dfd-dadf9a8f059b" />
+
+
