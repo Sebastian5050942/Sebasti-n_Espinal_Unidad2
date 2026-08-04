@@ -1,6 +1,6 @@
  # Símbolos que se utilizan para representar cada operación de un algoritmo con un diagrama de flujo:
 
-# 1.Óvalo 
+# 1. Óvalo 
 - Inicio/Fin: Se utiliza para indicar el comienzo y el final de un algoritmo. Todo diagrama de flujo debe iniciar y terminar con este símbolo.
 
 # 2. Rectángulo 
