@@ -36,4 +36,7 @@
 <img width="235" height="425" alt="Captura de pantalla 2026-08-04 101913" src="https://github.com/user-attachments/assets/d9673def-26d9-42e7-b5f4-4bb2f7fcfb93" /> 
 <img width="852" height="800" alt="5173492_orig" src="https://github.com/user-attachments/assets/1356c8da-e628-4877-8109-c9b9374dde2f"/>
 
+# Clase 04 de Agosto / 2026
+
+<img width="262" height="1092" alt="Ejercicio2" src="https://github.com/user-attachments/assets/f1cd7453-b3fe-4ea0-b623-e5973fea0f51" />
 
