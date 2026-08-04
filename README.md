@@ -33,6 +33,6 @@
 # 11. Símbolo de documento 
 - Enviar datos a impresora: Indica que la información generada por el algoritmo será enviada a una impresora o se obtendrá un documento impreso como salida.
 
-<img width="235" height="425" alt="Captura de pantalla 2026-08-04 101913" src="https://github.com/user-attachments/assets/d9673def-26d9-42e7-b5f4-4bb2f7fcfb93" /> <img <img width="852" height="800" alt="5173492_orig" src="https://github.com/user-attachments/assets/1356c8da-e628-4877-8109-c9b9374dde2f"/>
+<img width="235" height="425" alt="Captura de pantalla 2026-08-04 101913" src="https://github.com/user-attachments/assets/d9673def-26d9-42e7-b5f4-4bb2f7fcfb93" /> <img width="852" height="800" alt="5173492_orig" src="https://github.com/user-attachments/assets/1356c8da-e628-4877-8109-c9b9374dde2f"/>
 
 
