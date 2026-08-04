@@ -24,7 +24,7 @@
 # 8. Pentágono 
 - Conector de página: Se utiliza cuando el diagrama continúa en otra hoja. Permite indicar dónde debe seguir el flujo del algoritmo.
 
-# 9 Flechas 
+# 9. Flechas 
 - Líneas de flujo: Muestran la dirección y el orden en que se ejecutan las instrucciones dentro del diagrama de flujo.
 
 # 10. Símbolo de pantalla o display 
