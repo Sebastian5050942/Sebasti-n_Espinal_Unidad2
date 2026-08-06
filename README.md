@@ -75,6 +75,7 @@ Acumulador:
 
 # Ejemplo 3
 
+<img width="730" height="852" alt="Ese5 drawio" src="https://github.com/user-attachments/assets/db2cba25-3631-4b75-9da2-fa261efd5a5e" />
 
 
 
