@@ -42,4 +42,6 @@
 
 <img width="712" height="912" alt="Diagrama sin título drawio" src="https://github.com/user-attachments/assets/97d6a1f8-4501-41c6-9dfd-dadf9a8f059b" />
 
+# Clase 06 de Agosto / 2026
+
 
