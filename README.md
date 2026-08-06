@@ -44,4 +44,39 @@
 
 # Clase 06 de Agosto / 2026
 
+1. For:
+<img width="332" height="235" alt="image" src="https://github.com/user-attachments/assets/5e514b06-fff4-4905-a44b-cde94f16ba0c" />
+
+2. While:
+<img width="248" height="253" alt="image (1)" src="https://github.com/user-attachments/assets/01fabc68-f8c8-4b91-b7ff-46619cbafe3c" />
+
+3. Do - While:
+<img width="249" height="252" alt="image (2)" src="https://github.com/user-attachments/assets/eef8bd6e-2bf1-4259-b856-dbb5c07cac7f" />
+
+# Ejemplo 1
+
+Contador:
+- C = 0
+- C = C + 1
+
+Acumulador:
+- Ac = 0 <- Suma
+- Ac = Ac + N
+
+<img width="527" height="391" alt="image (3)" src="https://github.com/user-attachments/assets/e0a5ebcb-70b2-4a51-8a8f-4538d1fafe58" />
+
+# Ejemplo 2
+
+<img width="638" height="302" alt="image (4)" src="https://github.com/user-attachments/assets/4b3a8ce7-625d-4962-add4-ced77423c41c" />
+
+# Pregunta de Parcial
+
+¿Cual es la diferencia entre un acumulador y el contador?
+
+# Ejemplo 3
+
+
+
+
+
 
