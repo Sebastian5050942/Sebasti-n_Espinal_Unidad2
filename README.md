@@ -111,4 +111,38 @@ Acumulador:
 
  ![Mi Imagen](https://github.com/Sebastian5050942/Toma_notas_Programaci-n/blob/4adbd03d59b7a603eac95d84a6191e2a2bf7f9c0/Ese6.drawio.png)
 
+ # Ejercicios de Bucles
+
+1) Registro de altitudes de vuelo:
+    
+    Un sistema debe registrar la altitud de vuelo cada 10 minutos durante una hora y mostrar todas las mediciones al final.
+
+   Inicio
+   (Cont / Contador) = 0
+   Leer nivel
+   Mientras nivel ≥ max 0.1
+         Cont = Cont + 1
+         Leer nivel
+   Fin - Mientras
+Mostrar "Tiempo transcurrido" cont
+Fin
+
+2) Control de combustible en pruebas:
+    
+    Durante un ensayo en banco de un motor a reacción, se mide el nivel de combustible cada minuto y se detiene el registro cuando el combustible baja del 10%. Mostrar el tiempo total de operación antes de llegar a ese punto.
+
+
+   Inicio
+   Cont = 0
+   Leer temp
+   Mientras cont < 12
+         Si temp > 27 o temp < 18
+         Mostrar "Activar climatización"
+      Fin si: cont = cont + 1
+   Fin mientras
+   Fin
+
+   # Ejercicios de mayor complejidad
+
+Durante la aproximación, un sistema recibe datos de altitud y velocidad cada 5 segundos hasta el aterrizaje. Si la velocidad excede el valor máximo seguro o la altitud no desciende adecuadamente, debe indicarse un mensaje de corrección de maniobra. Mostrar un resumen final de todos los avisos emitidos.
 
