@@ -42,6 +42,12 @@
 
 <img width="712" height="912" alt="Diagrama sin título drawio" src="https://github.com/user-attachments/assets/97d6a1f8-4501-41c6-9dfd-dadf9a8f059b" />
 
+- Operadores Aritméticos:
+
+<img width="170" height="248" alt="Captura de pantalla 2026-08-04 103059" src="https://github.com/user-attachments/assets/ab548734-9bea-4d54-bdb0-4ba3fe49b9e9" />
+<img width="235" height="425" alt="Captura de pantalla 2026-08-04 101913" src="https://github.com/user-attachments/assets/b32ef7de-1fa1-42a5-92d4-3b69439bb552" />
+
+
 # Clase 06 de Agosto / 2026
 
 1. For:
