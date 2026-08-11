@@ -42,6 +42,7 @@
 
 <img width="712" height="912" alt="Diagrama sin título drawio" src="https://github.com/user-attachments/assets/97d6a1f8-4501-41c6-9dfd-dadf9a8f059b" />
 
+
 - Operadores Aritméticos:
 
 <img width="170" height="248" alt="Captura de pantalla 2026-08-04 103059" src="https://github.com/user-attachments/assets/ab548734-9bea-4d54-bdb0-4ba3fe49b9e9" />
