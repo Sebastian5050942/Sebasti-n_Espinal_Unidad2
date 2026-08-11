@@ -77,6 +77,11 @@ Acumulador:
 
 <img width="730" height="852" alt="Ese5 drawio" src="https://github.com/user-attachments/assets/db2cba25-3631-4b75-9da2-fa261efd5a5e" />
 
+# Clase 11 de Agosto / 2026
+
+1) Control de temperatura del motor:
+
+- Durante una inspección de rutina, se mide la temperatura de un motor de turbina. Si la temperatura es mayor a un valor crítico, se debe indicar "Peligro: sobrecalentamiento". Si está dentro del rango seguro, indicar "Operación normal". Si es demasiado baja, indicar "Motor frío – Calentar antes de operar".
 
 
 
