@@ -83,6 +83,6 @@ Acumulador:
 
 - Durante una inspección de rutina, se mide la temperatura de un motor de turbina. Si la temperatura es mayor a un valor crítico, se debe indicar "Peligro: sobrecalentamiento". Si está dentro del rango seguro, indicar "Operación normal". Si es demasiado baja, indicar "Motor frío – Calentar antes de operar".
 
-<imghttps://github.com/Sebastian5050942/Toma_notas_Programaci-n/blob/4adbd03d59b7a603eac95d84a6191e2a2bf7f9c0/Ese6.drawio.png />
+! ![Mi Imagen](https://github.com/Sebastian5050942/Toma_notas_Programaci-n/blob/4adbd03d59b7a603eac95d84a6191e2a2bf7f9c0/Ese6.drawio.png)
 
 
