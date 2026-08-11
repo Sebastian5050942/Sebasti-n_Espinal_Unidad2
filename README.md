@@ -146,3 +146,4 @@ Fin
 
 Durante la aproximación, un sistema recibe datos de altitud y velocidad cada 5 segundos hasta el aterrizaje. Si la velocidad excede el valor máximo seguro o la altitud no desciende adecuadamente, debe indicarse un mensaje de corrección de maniobra. Mostrar un resumen final de todos los avisos emitidos.
 
+![Mi Imagen](https://github.com/Sebastian5050942/Toma_notas_Programaci-n/blob/ca9767c08a0b42728b3c8095b8cd8abe6548a8cc/Ese7.drawio.png)
