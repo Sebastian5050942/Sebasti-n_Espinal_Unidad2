@@ -1,36 +1,85 @@
- # Símbolos que se utilizan para representar cada operación de un algoritmo con un diagrama de flujo:
+# Clase 28 de Julio / 2026
 
-# 1. Óvalo 
+Decimal:  13
+Binario:  1101
+
+13 ÷ 2 = 6, residuo 1
+6  ÷ 2 = 3, residuo 0
+3  ÷ 2 = 1, residuo 1
+1  ÷ 2 = 0, residuo 1
+(Residuos de abajo hacia arriba)
+
+## Ejemplo:
+
+- 87 ÷ 2 = 43, residuo 1
+- 43 ÷ 2 = 21 , residuo 1
+- 21 ÷ 2 = 10 , residuo 1
+- 10 ÷ 2 = 5 , residuo 0
+- 5 ÷ 2 = 2 , residuo 1
+- 2 ÷ 2 = 1 , residuo 0
+- 1 ÷ 2 = 0 , residuo 1
+- 0
+
+## Nota:
+
+- 87 en base 10 = 01010111 en base 2
+
+## Ejemplo 2:
+
+- | 128 | 64 | 32 | 16 | 8 | 4 | 2 | 1 |
+- |  0  |  1 |  1 |  0 | 0 | 1 | 0 | 0 |
+
+- 'A' = 65 = 01000001 (en binario) → almacenado en 1 byte.
+
+- |  0  |  1 |  1 |  1 | 1 | 1 | 1 | 1 |base 2 = 127
+- |  1  |  0 |  0 |  0 | 0 | 0 | 0 | 1 | = -127
+
+## Complementos:
+
+- 000 = 111
+- 001 = 110
+- 010 = 101
+- 011 = 100
+- 100 = 011
+- 101 = 010
+- 110 = 001
+- 111 = 000
+
+# Clase de Algoritmos:
+
+## Símbolos que se utilizan para representar cada operación de un algoritmo con un diagrama de flujo:
+
+## 1. Óvalo 
 - Inicio/Fin: Se utiliza para indicar el comienzo y el final de un algoritmo. Todo diagrama de flujo debe iniciar y terminar con este símbolo.
 
-# 2. Rectángulo 
+## 2. Rectángulo 
 - Proceso: Representa una acción, operación o cálculo que debe realizar el algoritmo, como sumar dos números, asignar un valor o ejecutar una instrucción.
 
-# 3. Paralelogramo 
+## 3. Paralelogramo 
 - Entrada de datos: Se utiliza para representar la entrada o salida de información. Generalmente indica que el usuario ingresa datos o que el sistema muestra un resultado.
 
-# 4. Rombo 
+## 4. Rombo 
 - Condición: Representa una decisión o comparación. Dependiendo de si la condición es verdadera o falsa, el algoritmo sigue un camino diferente.
 
-# 5. Círculo
+## 5. Círculo
 - Conector: Sirve para unir diferentes partes del diagrama de flujo sin necesidad de trazar líneas muy largas, facilitando su organización y lectura.
 
-# 6. Símbolo de cinta magnética 
+## 6. Símbolo de cinta magnética 
 - Cinta magnética: Representa el almacenamiento de datos en una cinta magnética. Es un símbolo tradicional que hoy en día se utiliza muy poco.
 
-# 7. Cilindro 
+## 7. Cilindro 
 - Disco magnético: Indica que la información se almacena en un disco duro o en una base de datos, es decir, en un medio de almacenamiento permanente.
 
-# 8. Pentágono 
+## 8. Pentágono 
 - Conector de página: Se utiliza cuando el diagrama continúa en otra hoja. Permite indicar dónde debe seguir el flujo del algoritmo.
 
-# 9. Flechas 
+## 9. Flechas 
 - Líneas de flujo: Muestran la dirección y el orden en que se ejecutan las instrucciones dentro del diagrama de flujo.
 
-# 10. Símbolo de pantalla o display 
+## 10. Símbolo de pantalla o display 
 - Mostrar datos: Representa la salida de información en un monitor o pantalla para que el usuario pueda visualizar los resultados.
 
-# 11. Símbolo de documento 
+## 11. Símbolo de documento 
 - Enviar datos a impresora: Indica que la información generada por el algoritmo será enviada a una impresora o se obtendrá un documento impreso como salida.
 
 <img width="235" height="425" alt="Captura de pantalla 2026-08-04 101913" src="https://github.com/user-attachments/assets/d9673def-26d9-42e7-b5f4-4bb2f7fcfb93" /> 
