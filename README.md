@@ -45,6 +45,21 @@ Binario:  1101
 - 110 = 001
 - 111 = 000
 
+**De binario a decimal:**
+
+Para convertir 1011 a decimal:
+
+$1*(2^3) + 0*(2^2) + 1*(2^1) + 1*(2^0) = 8 + 0 + 2 + 1 = 11$
+
+## Ejercicio 1
+
+En la Figura 2 se muestran los diferentes estados que se pueden representar usando una palabra binaria de 3 bits. Responde la pregunta de la imagen: ¿Cuántos estados diferentes se pueden representar usando N bits?
+
+<img width="474" height="304" alt="Untitled" src="https://github.com/user-attachments/assets/50a59559-4e6a-45e9-9110-abc32e98455c" />
+
+Para resolver el ejercicio anterior, intenta con 2 bits, luego con 3 y así sucesivamente. Intenta encontrar una representación matemática para dicha secuencia. 
+
+
 # Clase de Algoritmos:
 
 ## Símbolos que se utilizan para representar cada operación de un algoritmo con un diagrama de flujo:
