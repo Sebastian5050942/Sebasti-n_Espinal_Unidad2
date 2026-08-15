@@ -49,7 +49,25 @@ Binario:  1101
 
 Para convertir 1011 a decimal:
 
-$1*(2^3) + 0*(2^2) + 1*(2^1) + 1*(2^0) = 8 + 0 + 2 + 1 = 11$
+$1*(2^4) + 0*(2^3) + 1*(2^2) + 1*(2^1)+ 0*(2^0) = 16 + 0 + 4 + 2 + 0 = 22$
+
+### Ejercicios
+
+1. Convierte el número decimal 22 a binario.
+2. ¿Cuál es el resultado en decimal del número binario 10110?
+
+### Solucion:
+
+1) - 22 ÷ 2 = 11, residuo 0
+- 11 ÷ 2 = 5 , residuo 1
+- 5 ÷ 2 = 2 , residuo 1
+- 2 ÷ 2 = 1 , residuo 0
+- 1 ÷ 2 = 2 , residuo 1
+- 0
+
+= 10110
+
+2) 1 
 
 ## Ejercicio 1
 
