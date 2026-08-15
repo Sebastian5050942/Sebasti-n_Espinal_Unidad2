@@ -36,19 +36,32 @@
 <img width="235" height="425" alt="Captura de pantalla 2026-08-04 101913" src="https://github.com/user-attachments/assets/d9673def-26d9-42e7-b5f4-4bb2f7fcfb93" /> 
 <img width="852" height="800" alt="5173492_orig" src="https://github.com/user-attachments/assets/1356c8da-e628-4877-8109-c9b9374dde2f"/>
 
+
+## Reglas para el uso de diagramas de flujo:
+
+1. Todo diagrama de flujo debe tener un **inicio y** un **fin.** 
+2. Las líneas utilizadas para indicar la dirección del flujo del  diagrama deben ser rectas: verticales u horizontales. 
+3. Todas las líneas utilizadas para indicar la dirección del flujo  del diagrama deben estar conectadas. La conexión puede  ser a un símbolo que exprese lectura, proceso, decisión,  impresión, conexión o fin del diagrama. 
+4. El diagrama de flujo debe construirse de arriba hacia abajo  (*top-down*) y de izquierda a derecha (*left to right* ).
+5. La notación utilizada en el diagrama de flujo debe ser  independiente del lenguaje de programación. 
+6. Al realizar una tarea compleja, es conveniente poner  comentarios que expresen o ayuden a entender lo que  hayamos hecho. 
+7. Si la construcción del diagrama de flujo requiriera más de  una hoja, debemos utilizar los conectores adecuados y  enumerar las páginas correspondientes. 
+8. No puede llegar más de una línea a un símbolo  determinado
+
 # Clase 04 de Agosto / 2026
 
-- Ejemplo 1:
+
+## Ejemplo 1:
 
 <img width="262" height="1092" alt="Ejercicio2" src="https://github.com/user-attachments/assets/f1cd7453-b3fe-4ea0-b623-e5973fea0f51" />
 
 
-- Ejemplo 2
+## Ejemplo 2
 
 <img width="712" height="912" alt="Diagrama sin título drawio" src="https://github.com/user-attachments/assets/97d6a1f8-4501-41c6-9dfd-dadf9a8f059b" />
 
 
-- Operadores Aritméticos:
+## Operadores Aritméticos:
 
 <img width="170" height="248" alt="Captura de pantalla 2026-08-04 103059" src="https://github.com/user-attachments/assets/ab548734-9bea-4d54-bdb0-4ba3fe49b9e9" />
 <img width="235" height="425" alt="Captura de pantalla 2026-08-04 101913" src="https://github.com/user-attachments/assets/b32ef7de-1fa1-42a5-92d4-3b69439bb552" />
