@@ -97,7 +97,7 @@ Convertimos 67 a binario:
 
 Por lo tanto:
 
-C = 01000011_2
+C = $01000011_{2}$
 
 2. Para convertir 5.75 a binario, separamos la parte entera y la decimal.
 
@@ -110,7 +110,7 @@ C = 01000011_2
 
 Leyendo los residuos de abajo hacia arriba:
 
-5_10 = 101_2
+$5_{10} = 101_{2}$
 
 ### 2. Parte decimal: 0.75
 - Multiplicamos por 2 y tomamos la parte entera:
@@ -120,15 +120,15 @@ Leyendo los residuos de abajo hacia arriba:
 
 Entonces:
 
-0.75_10 = 0.11_2
+$0.75_{10} = 0.11_{2}$
 
 ### 3. Unimos ambas partes
 
-5.75_10 = 101.11_2
+$5.75_{10} = 101.11_{2}$
 
 ### Resultado final:
 
-5.75_10 = 101.11_2
+$5.75_{10} = 101.11_{2}$
 
 ### Ejercicios
 
@@ -142,7 +142,114 @@ Convertimos 67 a binario:
 
 67 = 64 + 2 + 1
 
-67 = (2^6) + (2^1) + (2^0) = 67_10 = 01000011_2
+67 =   $1*(2^6) + 1*(2^1) + 1*(2^0) = 64 + 2 + 1 = 67_{10} = 01000011_2$
+
+
+2. Convierte el número flotante 5.75 a binario
+
+- Separamos la parte entera y la parte decimal:
+- Parte entera: 5
+- Dividimos entre 2:
+
+5 ÷ 2 = 2, residuo 1
+2 ÷ 2 = 1, residuo 0
+1 ÷ 2 = 0, residuo 1
+
+Leyendo los residuos de abajo hacia arriba:
+
+$5_{10} = 101_{2}$
+
+- Parte decimal: 0.75
+- Multiplicamos por 2: 0.75 x 2 = 1.5
+- Tomamos el 1 y continuamos con 0.5: 0.5 x 2 = 1.0
+- Tomamos el 1 y por lo tanto: $0.75_{10} = 0.11_{2}$
+- Unimos ambas partes: $5.75_{10} = 101.11_{2}$
+- Respuesta: 101.11
+
+### Almacenamiento Digital de Datos
+
+### ¿Cómo se almacenan los datos?
+
+Los datos se almacenan en la memoria y en dispositivos de almacenamiento como secuencias de bits. La unidad básica es el **bit**, pero normalmente se agrupan en **bytes** (8 bits).
+
+- **Palabra:** Unidad de datos que maneja el procesador (puede ser 16, 32 o 64 bits).
+- **Unidades de almacenamiento:** 1 byte = 8 bits, 1 KB = 1024 bytes, 1 MB = 1024 KB, etc.
+
+**Diagrama de almacenamiento:**
+
+|--bit--|--bit--|--bit--|--bit--|--bit--|--bit--|--bit--|--bit--|
+|------------------------- 1 byte ------------------------------|
+
+**Ejemplo:**
+Guardar la letra 'A' en memoria:
+
+- 'A' = 65 = 01000001 (en binario) → almacenado en 1 byte.
+
+### Ejercicios
+
+1. ¿Cuántos bytes se necesitan para almacenar la palabra “Hola” en ASCII?
+2. ¿Cuántos bits hay en 5 KB?
+
+### Solución:
+
+1. La palabra “Hola” tiene 4 caracteres:
+H → 1 byte
+o → 1 byte
+l → 1 byte
+a → 1 byte
+
+Entonces:
+
+4 caracteres x 1 byte = 4 bytes
+
+Respuesta: 4 bytes
+
+2. Usando: 1KB = 1024 bytes
+- Y como 1 byte = 8 bits
+- Tenemos: 5120 x 8 = 40960 bits
+
+Respuesta: 40.960 bits
+
+### tras Temáticas Relevantes
+
+### Sistema hexadecimal
+
+El sistema hexadecimal (base 16) es usado frecuentemente para representar datos binarios de forma más compacta.
+
+**Conversión:**
+
+- 1111 1111 (binario) = FF (hexadecimal)
+- 1010 1100 (binario) = AC (hexadecimal)
+
+<img width="779" height="272" alt="capture_temp" src="https://github.com/user-attachments/assets/7754168d-163e-469e-9ccf-e8a7df808fce" />
+
+### Errores de redondeo y precisión
+
+En los números de punto flotante, no todos los números decimales pueden representarse exactamente, lo que provoca errores de redondeo.
+
+### Codificación de colores
+
+Colores en computadoras suelen representarse en formato RGB, usando valores hexadecimales:
+
+- Rojo: #FF0000
+- Verde: #00FF00
+- Azul: #0000FF
+
+### Ejercicios
+
+1. Convierte el número decimal 255 a hexadecimal.
+2. ¿Cuál es el valor hexadecimal de la secuencia binaria 11010110?
+
+### Solución:
+
+1. Dividimos entre 16: 255 ÷ 16 = 155, residuo 15
+
+- En Hexadecimal: 15 = F
+- Entonces:
+$255_{10}$ = $FF_{16}$
+- Respuesta: FF
+
+
 
 # Clase de Algoritmos:
 
