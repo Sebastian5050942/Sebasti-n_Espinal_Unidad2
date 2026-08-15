@@ -249,7 +249,65 @@ Colores en computadoras suelen representarse en formato RGB, usando valores hexa
 $255_{10}$ = $FF_{16}$
 - Respuesta: FF
 
+2. Separamos el número binario en grupos de 4 bits:
 
+- 1101 y 1010
+
+Convertimos cada grupo:
+
+- $1101_{2}$ = $13_{10}$ = $D_{16}$
+
+Por lo tanto:
+
+$11010110_{2}$ = $DA_{16}$
+
+Respuesta: DA
+
+## Ejercicios Finales de Repaso
+
+1. Explica, en tus propias palabras, por qué es necesario que las computadoras representen los datos en binario.
+2. Convierte el número binario 10011011 a decimal y a hexadecimal.
+3. Investiga y describe cómo se representa una imagen en formato PNG en el disco.
+4. Analiza la siguiente situación: ¿Qué sucede si intentas almacenar un número mayor al que puede representar un byte (por ejemplo, 300)? ¿Cómo lo maneinstrucció
+
+### Solución:
+
+1. Las computadoras utilizan binario porque sus componentes electrónicos trabajan principalmente con dos estados, que se pueden representar como 0 y 1. Con estos dos valores pueden representar números, letras, imágenes, sonidos y cualquier otro tipo de información.
+
+2. ### A decimaal:
+
+$10011011_{2}$  =  $1*(2^7) + 0*(2^6) + 0*(2^5) + 1*(2^4) + 1*(2^3) + 0*(2^2) + 1*(2^1)+ 1*(2^0) = 128 + 16 + 8 + 2 + 1 = 155$
+
+Por lo cual:
+
+$10011011_{2}$  =   $155_{10}$
+
+### A Hexadecimal:
+
+Separamos en grupos de 4:
+
+- 1001 y 1011
+- 1001 = 9
+- 1011 = B
+
+Por lo tanto:
+
+$10011011_{2}$ = $9B_{16}$
+
+Respuesta: 155 en decimal y 9B en hexadecimal
+
+3. Una imagen PNG se almacena en el disco como un archivo formado por datos binarios. En este, el archivo contiene información sobre la imagen como su ancho, alto, colores y otros datos, además de los datos de los píxeles.
+- La PNG utiliza compresión sin pérdida, por lo que puede reducir el tamaño del archivo sin perder información de la imagen. Entonces, cuando un programa abre el PNG, interpreta esos datos binarios y reconstruye la imagen para mostrarla en pantalla.
+- En resumen, aunque nosotros vemos una imagen, en el disco realmente está almacenada como una secuencia de bytes (0 y 1).
+
+4. Python puede manejar 300 como un entero normal, pero no puede representarlo en un solo byte sin utilizar más espacio, es decir, un byte puede representar valores de 0 a 255 cuando se utiliza sin signo.
+
+Por ejemplo:
+
+$255_{10}$   =   $11111111_{2}$
+
+Pero 300 es mayor que 255, por lo que no cabe en un solo byte.
+En Python, un número entero normal (int) no está limitado a un byte. Como resultado se produce un "OverflowError"
 
 # Clase de Algoritmos:
 
@@ -376,13 +434,112 @@ Acumulador:
 ![Mi Imagen](https://github.com/Sebastian5050942/Toma_notas_Programaci-n/blob/dc005b9b4697ea21751a2f60d8ae1ecf4327b15d/Ese4.drawio.png)
 
 
+# Actividad de Evaluación: Comprensión de Conceptos
+
+## **Consigna tus respuestas en la bitácora**
+
+A continuación, se presentan enunciados relacionados con los temas tratados en el texto. Los estudiantes deben responder si los enunciados corresponden o no con las definiciones o conceptos aprendidos.
+
+### Parte 1: Identificar Algoritmos
+
+Responde si los siguientes enunciados representan un algoritmo. Justifica la respuesta:
+
+1. Una página web.
+2. Una receta para hacer un pastel, donde se indican ingredientes y pasos a seguir.
+3. "Piensa en un número y multiplícalo por otro".
+4. Un manual de instrucciones para armar un mueble, con pasos detallados y un orden claro.
+5. Una lista de compras organizada en orden alfabético
+
+### Parte 2: Variables y Constantes
+
+Indica si las siguientes afirmaciones describen una variable o una constante:
+
+1. El valor de la gravedad en la Tierra, 9.8 m/s².
+2. La edad de una persona calculada con base en el año actual y su año de nacimiento.
+3. La cantidad de dinero en una cuenta bancaria.
+4. La velocidad de la luz en el vacío, 299,792,458 m/s.
+5. El radio de un círculo.
+
+### Parte 3: Características de los Algoritmos
+
+Responde si los siguientes enunciados cumplen con las características de un algoritmo. Justifica la respuesta:
+
+1. Para elegir la ruta más corta entre varias ciudades, el algoritmo examina rutas candidatas, deteniéndose cuando los cambios en la distancia parecen lo suficientemente pequeños.
+2. Suma los números ingresados y muestra el resultado.
+3. Un conjunto de pasos para calcular el área de un rectángulo dado su base y altura.
+4. El algoritmo cuenta el número de votos obtenidos por cada uno de los candidatos de una elección para presidente. Empieza solicitando el nombre del candidato y finaliza cuando se ingresa el valor -1.
+
+### Parte 4: Comprensión de Herramientas
+
+Indica si las siguientes afirmaciones son ciertas o falsas respecto al pseudocódigo y diagramas de flujo:
+
+1. El pseudocódigo utiliza símbolos estándar para representar las operaciones lógicas.
+2. Los diagramas de flujo son una representación gráfica de un algoritmo.
+3. El pseudocódigo debe estar escrito en un lenguaje de programación específico.
+4. Un diagrama de flujo siempre debe tener un inicio y un fin claramente definidos.
+
+### Parte 5: Estructuras de Control
+
+Describe para qué sirven las estructuras de control. Redacta dos ejemplos, uno de tu vida diaria, es decir cuando tienes que tomar decisiones en tus actividades diarias y oto ejemplo en el que se tengan que utilizar cálculos matemáticos para tomar una u otra decisión.
+
+# Solución:
+
+### Parte 1:
+
+1. Una página web: No, porque una página web por sí sola no es como tal un algoritmo, ya que no describe una serie de pasos para resolver un problema. Puede contener algoritmos en su funcionamiento, pero la página en sí no lo es.
+2. Una receta para hacer un pastel, donde se indican ingredientes y pasos a seguir: Si, es un algoritmo porque presenta una secuencia ordenada de instrucciones que, si se siguen correctamente, permiten obtener un resultado específico como lo es preparar un pastel.
+3. "Piensa en un número y multiplícalo por otro": No, esta instrucción es muy general y no explica con claridad qué números utilizar ni cómo finalizar el proceso. Por eso no cumple con la característica de precisión de un algoritmo.
+4. Un manual de instrucciones para armar un mueble, con pasos detallados y un orden claro: Si, es un algoritmo porque describe paso a paso el procedimiento para alcanzar un objetivo. Si se siguen las instrucciones en el orden indicado, siempre se obtiene el mismo resultado.
+5. Una lista de compras organizada en orden alfabético: No, en una lista de compras solo contiene información organizada, pero no explica un procedimiento ni una secuencia de acciones para resolver un problema.
+
+### Parte 2:
+
+1. El valor de la gravedad en la Tierra (9.8 m/s²): Constante, porque su valor permanece fijo y no cambia durante la ejecución del algoritmo.
+2. La edad de una persona: Variable, porque cambia con el paso del tiempo y depende de cada persona.
+3. La cantidad de dinero en una cuenta bancaria: Variable, ya que puede aumentar o disminuir dependiendo de los movimientos realizados.
+4. La velocidad de la luz en el vacío (299.792 458 m/s): Constante, porque es un valor fijo establecido por la física.
+5. El radio de un círculo: Variable, porque puede tomar diferentes valores dependiendo del círculo que se esté analizando.
+
+### Parte 3:
+
+1. No cumple completamente, aunque busca encontrar la ruta más corta, utiliza la expresión "cuando los cambios parecen lo suficientemente pequeños", que es subjetiva y no define una condición exacta para terminar.
+2. No cumple, la instrucción es demasiado general y no indica cómo se ingresan los números, cómo se realiza la suma ni cómo se muestra el resultado, por lo que no es precisa.
+3. Sí cumple, el algoritmo tiene entradas definidas (base y altura), un proceso claro para calcular el área y una salida específica. Además, siempre produce el mismo resultado para los mismos datos.
+4. Sí cumple, tiene un proceso bien definido para contar votos y una condición de finalización clara al ingresar el valor -1, por lo que es un algoritmo preciso y finito.
+
+### Parte 4:
+
+1. El pseudocódigo utiliza símbolos estándar para representar las operaciones lógicas, por lo cual es FALSO, el pseudocódigo se escribe utilizando lenguaje natural estructurado, mientras que los símbolos corresponden a los diagramas de flujo.
+2. Los diagramas de flujo son una representación gráfica de un algoritmo, por lo cual es VERDADERO, utilizan símbolos y flechas para mostrar de manera visual el orden de ejecución de un algoritmo.
+3. El pseudocódigo debe estar escrito en un lenguaje de programación específico, por lo cual es FALSO, el pseudocódigo es independiente de cualquier lenguaje de programación y solo sirve para describir la lógica del algoritmo.
+4. Un diagrama de flujo siempre debe tener un inicio y un fin claramente definidos, por lo cual es VERDADERO, todo diagrama de flujo debe indicar dónde comienza y dónde termina el proceso.
+
+### Parte 5:
+
+Las estructuras de control sirven para organizar la ejecución de un algoritmo, estos permiten decidir qué instrucciones ejecutar y repetir procesos cuando sea necesario o seguir un orden determinado para resolver un problema de forma correcta y eficiente.
+
+## Ejemplo de la vida diaria:
+
+Cuando voy a salir de mi casa, primero reviso el clima, y si está lloviendo llevo un paraguas, de lo contrario, salgo normalmente. En este caso, la decisión depende de una condición.
+
+## Ejemplo con cálculos matemáticos:
+
+En un colegio se calcula el promedio final de un estudiante, y si el promedio es mayor o igual a 3.0, el estudiante aprueba la materia, si es menor a 3.0, la reprueba. Aquí la decisión se toma a partir de un cálculo matemático.
+
+
 # Clase 11 de Agosto / 2026
 
-1) Control de temperatura del motor:
+## Taller de Algoritmos:
+
+1) **Control de temperatura del motor:**
 
 - Durante una inspección de rutina, se mide la temperatura de un motor de turbina. Si la temperatura es mayor a un valor crítico, se debe indicar "Peligro: sobrecalentamiento". Si está dentro del rango seguro, indicar "Operación normal". Si es demasiado baja, indicar "Motor frío – Calentar antes de operar".
 
  ![Mi Imagen](https://github.com/Sebastian5050942/Toma_notas_Programaci-n/blob/4adbd03d59b7a603eac95d84a6191e2a2bf7f9c0/Ese6.drawio.png)
+
+ 2) **Verificación de peso de despegue:**
+    
+- En una pista de pruebas de aeronaves, el sistema debe verificar si el peso total de la aeronave, incluyendo combustible y carga, supera el límite máximo permitido para el despegue. Dependiendo del resultado, el sistema deberá indicar si la aeronave está lista para despegar o si debe reducir carga o combustible.
 
  # Ejercicios de Bucles
 
