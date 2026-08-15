@@ -529,19 +529,22 @@ En un colegio se calcula el promedio final de un estudiante, y si el promedio es
 
 # Clase 11 de Agosto / 2026
 
-# Taller de Algoritmos:
+## Taller de Algoritmos:
 
-# Ejercicios con condicionales
+### Ejercicios con condicionales
 
-### 1) **Control de temperatura del motor:**
+### 1) **Verificación de peso de despegue:**
+    
+- En una pista de pruebas de aeronaves, el sistema debe verificar si el peso total de la aeronave, incluyendo combustible y carga, supera el límite máximo permitido para el despegue. Dependiendo del resultado, el sistema deberá indicar si la aeronave está lista para despegar o si debe reducir carga o combustible.
+
+ ![Mi Imagen](https://github.com/Sebastian5050942/Sebasti-n_Espinal_Unidad2/blob/28a9b357d1b8cb923b184718516de26fea3cbaa2/Imagenes%20/IMAGEN1.drawio.png)
+
+### 2) **Control de temperatura del motor:**
 
 - Durante una inspección de rutina, se mide la temperatura de un motor de turbina. Si la temperatura es mayor a un valor crítico, se debe indicar "Peligro: sobrecalentamiento". Si está dentro del rango seguro, indicar "Operación normal". Si es demasiado baja, indicar "Motor frío – Calentar antes de operar".
 
  ![Mi Imagen](https://github.com/Sebastian5050942/Toma_notas_Programaci-n/blob/4adbd03d59b7a603eac95d84a6191e2a2bf7f9c0/Ese6.drawio.png)
 
-### 2) **Verificación de peso de despegue:**
-    
-- En una pista de pruebas de aeronaves, el sistema debe verificar si el peso total de la aeronave, incluyendo combustible y carga, supera el límite máximo permitido para el despegue. Dependiendo del resultado, el sistema deberá indicar si la aeronave está lista para despegar o si debe reducir carga o combustible.
 
  # Ejercicios de Bucles
 
@@ -574,8 +577,47 @@ Fin
    Fin mientras
    Fin
 
+   # Ejercicios con Bucle y Condicionales
+
+### 1) **Detección de turbulencia en trayecto:**
+    
+   Un sensor mide la aceleración vertical de la aeronave en intervalos de un segundo durante un trayecto de 2 minutos. Si el valor medido supera un umbral, indicar que se ha detectado turbulencia en ese instante. Al final, mostrar cuántas turbulencias se detectaron.
+
+  ![Mi Imagen](https://github.com/Sebastian5050942/Sebasti-n_Espinal_Unidad2/blob/69caff01c223774653cd3bca0870f9800024e575/Imagenes%20/IMAGEN2.drawio.png)
+
+### 2) **Control de temperatura en cabina**
+    
+   Un sistema mide cada 5 minutos la temperatura en cabina durante una hora. Si en algún momento se detecta una temperatura mayor a 27°C o menor a 18°C, debe indicar que se active el sistema de climatización.
+
+ ![Mi Imagen](https://github.com/Sebastian5050942/Sebasti-n_Espinal_Unidad2/blob/6d21b0cd151c65a36786203f581160330a43c31d/Imagenes%20/IMAGEN3.drawio.png)
+    
+### 3) **Simulación de conteo de pasajeros**
+    
+   Durante el abordaje, un sistema cuenta a los pasajeros que ingresan. Si el número total supera la capacidad máxima, el sistema debe detener el conteo y mostrar un mensaje de alerta.
+
+  ![Mi Imagen](https://github.com/Sebastian5050942/Sebasti-n_Espinal_Unidad2/blob/c74f54d33cdad904bb2ee505de9271c8a673e763/Imagenes%20/IMAGEN4.drawio.png)
+
    # Ejercicios de mayor complejidad
 
+ ### 1) **Planificación de misión satelital**
+    
+   Desarrollar un algoritmo que reciba datos de consumo de energía por hora de un satélite durante un día completo. Si en cualquier hora el consumo excede un límite crítico, debe registrarse como una alerta. Al final, mostrar el consumo total y el número de alertas generadas.
+
+ ![Mi Imagen](https://github.com/Sebastian5050942/Sebasti-n_Espinal_Unidad2/blob/796312d20eddd3cde92bf1a0df9d0bc2ee666e2e/Imagenes%20/IMAGEN5.drawio.png)
+    
+### 2) **Simulación de carga y balanceo de aeronave**
+    
+   Una aeronave tiene varias bodegas de carga. El sistema debe permitir ingresar el peso cargado en cada bodega y verificar que:
+    
+   - El peso total no exceda el máximo permitido.
+    - Ninguna bodega individual supere su límite.
+        
+        Mostrar mensajes de advertencia si alguna condición no se cumple.
+
+   ![Mi Imagen](https://github.com/Sebastian5050942/Sebasti-n_Espinal_Unidad2/blob/796312d20eddd3cde92bf1a0df9d0bc2ee666e2e/Imagenes%20/IMAGEN25.drawio.png)
+
+### 3) **Monitoreo de aproximación a pista**
+    
 Durante la aproximación, un sistema recibe datos de altitud y velocidad cada 5 segundos hasta el aterrizaje. Si la velocidad excede el valor máximo seguro o la altitud no desciende adecuadamente, debe indicarse un mensaje de corrección de maniobra. Mostrar un resumen final de todos los avisos emitidos.
 
 ![Mi Imagen](https://github.com/Sebastian5050942/Toma_notas_Programaci-n/blob/ca9767c08a0b42728b3c8095b8cd8abe6548a8cc/Ese7.drawio.png)
