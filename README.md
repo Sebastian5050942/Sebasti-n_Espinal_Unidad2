@@ -529,23 +529,25 @@ En un colegio se calcula el promedio final de un estudiante, y si el promedio es
 
 # Clase 11 de Agosto / 2026
 
-## Taller de Algoritmos:
+# Taller de Algoritmos:
 
-1) **Control de temperatura del motor:**
+# Ejercicios con condicionales
+
+### 1) **Control de temperatura del motor:**
 
 - Durante una inspección de rutina, se mide la temperatura de un motor de turbina. Si la temperatura es mayor a un valor crítico, se debe indicar "Peligro: sobrecalentamiento". Si está dentro del rango seguro, indicar "Operación normal". Si es demasiado baja, indicar "Motor frío – Calentar antes de operar".
 
  ![Mi Imagen](https://github.com/Sebastian5050942/Toma_notas_Programaci-n/blob/4adbd03d59b7a603eac95d84a6191e2a2bf7f9c0/Ese6.drawio.png)
 
- 2) **Verificación de peso de despegue:**
+### 2) **Verificación de peso de despegue:**
     
 - En una pista de pruebas de aeronaves, el sistema debe verificar si el peso total de la aeronave, incluyendo combustible y carga, supera el límite máximo permitido para el despegue. Dependiendo del resultado, el sistema deberá indicar si la aeronave está lista para despegar o si debe reducir carga o combustible.
 
  # Ejercicios de Bucles
 
-1) Registro de altitudes de vuelo:
+### 1) Registro de altitudes de vuelo:
     
-    Un sistema debe registrar la altitud de vuelo cada 10 minutos durante una hora y mostrar todas las mediciones al final.
+   Un sistema debe registrar la altitud de vuelo cada 10 minutos durante una hora y mostrar todas las mediciones al final.
 
    Inicio
    (Cont / Contador) = 0
@@ -557,9 +559,9 @@ En un colegio se calcula el promedio final de un estudiante, y si el promedio es
 Mostrar "Tiempo transcurrido" cont
 Fin
 
-2) Control de combustible en pruebas:
+### 2) Control de combustible en pruebas:
     
-    Durante un ensayo en banco de un motor a reacción, se mide el nivel de combustible cada minuto y se detiene el registro cuando el combustible baja del 10%. Mostrar el tiempo total de operación antes de llegar a ese punto.
+   Durante un ensayo en banco de un motor a reacción, se mide el nivel de combustible cada minuto y se detiene el registro cuando el combustible baja del 10%. Mostrar el tiempo total de operación antes de llegar a ese punto.
 
 
    Inicio
