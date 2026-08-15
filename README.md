@@ -56,7 +56,7 @@ $1*(2^3) + 0*(2^2) + 1*(2^1) + 1*(2^0) = 8 + 0 + 2 + 1 = 11$
 1. Convierte el número decimal 22 a binario.
 2. ¿Cuál es el resultado en decimal del número binario 10110?
 
-### Solucion:
+### Solución:
 
 1)
 - 22 ÷ 2 = 11, residuo 0
@@ -80,6 +80,69 @@ En la Figura 2 se muestran los diferentes estados que se pueden representar usan
 
 Para resolver el ejercicio anterior, intenta con 2 bits, luego con 3 y así sucesivamente. Intenta encontrar una representación matemática para dicha secuencia. 
 
+### Ejercicios
+
+1. ¿Qué número binario representa el carácter 'C' en ASCII?
+2. Convierte el número flotante 5.75 a binario (explica los pasos).
+
+### Solución:
+
+1. El carácter 'C' en ASCII corresponde al número decimal 67.
+
+Convertimos 67 a binario:
+
+\[
+67 = 64 + 2 + 1
+\]
+
+Por lo tanto:
+
+C = 01000011_2
+
+2. Para convertir 5.75 a binario, separamos la parte entera y la decimal.
+
+### 1. Parte entera: 5
+- Dividimos entre 2:
+
+5 ÷ 2 = 2, residuo 1
+2 ÷ 2 = 1, residuo 0
+1 ÷ 2 = 0, residuo 1
+
+Leyendo los residuos de abajo hacia arriba:
+
+5_10 = 101_2
+
+### 2. Parte decimal: 0.75
+- Multiplicamos por 2 y tomamos la parte entera:
+
+0.75 × 2 = 1.5 → parte entera 1
+0.5 × 2 = 1.0 → parte entera 1
+
+Entonces:
+
+0.75_10 = 0.11_2
+
+### 3. Unimos ambas partes
+
+5.75_10 = 101.11_2
+
+### Resultado final:
+
+5.75_10 = 101.11_2
+
+### Ejercicios
+
+1. ¿Cuántos bytes se necesitan para almacenar la palabra “Hola” en ASCII?
+2. ¿Cuántos bits hay en 5 KB?
+
+### Solución:
+
+1. En ASCII, C = 67 en decimal.
+Convertimos 67 a binario:
+
+67 = 64 + 2 + 1
+
+67 = 2^6 + 2^1 + 2^0 = 67_10 = 01000011_2
 
 # Clase de Algoritmos:
 
