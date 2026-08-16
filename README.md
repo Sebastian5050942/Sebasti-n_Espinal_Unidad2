@@ -552,11 +552,15 @@ En un colegio se calcula el promedio final de un estudiante, y si el promedio es
     
    Un sistema debe registrar la altitud de vuelo cada 10 minutos durante una hora y mostrar todas las mediciones al final.
 
-   Inicio
+### Solución:
+
+Inicio
+  
    (Cont / Contador) = 0
    Leer nivel
    Mientras nivel ≥ max 0.1
-         Cont = Cont + 1
+ 
+Cont = Cont + 1
          Leer nivel
    Fin - Mientras
 Mostrar "Tiempo transcurrido" cont
@@ -567,11 +571,15 @@ Fin
    Durante un ensayo en banco de un motor a reacción, se mide el nivel de combustible cada minuto y se detiene el registro cuando el combustible baja del 10%. Mostrar el tiempo total de operación antes de llegar a ese punto.
 
 
-   Inicio
+### Solución:
+
+Inicio
+
    Cont = 0
    Leer temp
-   Mientras cont < 12
-         Si temp > 27 o temp < 18
+Mientras cont < 12
+      
+Si temp > 27 o temp < 18
          Mostrar "Activar climatización"
       Fin si: cont = cont + 1
    Fin mientras
